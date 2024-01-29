@@ -33,15 +33,13 @@ main {
 }
 
 .one_h2 {
-    
+
     color: #000;
     margin: 2rem;
-   
-}
-
-p{
 
 }
+
+p {}
 
 h1 {
     text-align: center;
@@ -59,7 +57,7 @@ h2 {
     margin: 0 auto;
     margin-bottom: 40px;
     padding: 0 20px;
-    
+
 
 }
 
@@ -77,12 +75,12 @@ section.module:last-child {
     color: white;
     width: 100%;
     height: 300px;
-    margin:  auto;
-    
-    
+    margin: auto;
+
+
 }
 
-p{
+p {
     margin: auto 6rem;
     font-size: 12px;
     margin-left: 10px;
@@ -144,6 +142,13 @@ section.module.parallax04 {
     background-image: url(fotos/image1.jpg);
 }
 
+footer {
+    background-color: #000;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
 
 
 @media screen and (max-width: 714px) {
@@ -164,11 +169,11 @@ section.module.parallax04 {
         width: 95%;
     }
 
-    .container02{
+    .container02 {
         width: 100%;
     }
 
-    h2{
+    h2 {
         font-size: 30px;
     }
 
