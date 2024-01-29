@@ -1,0 +1,175 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 200%;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+    background-color: #f4f4f4;
+}
+
+.unique {
+    margin: auto;
+    background-color: #000;
+    width: 50%;
+}
+
+.one_h2 {
+    
+    color: #000;
+    margin: 2rem;
+   
+}
+
+p{
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    height: auto 3rem;
+    font-size: 70px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    
+
+}
+
+
+section.module p {
+    margin-bottom: 40px;
+}
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+.container02 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+    margin:  auto;
+    
+    
+}
+
+p{
+    margin: auto 6rem;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100Vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+section.module.parallax1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50Vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 70%, #000 100%);
+}
+
+section.module.parallax01 {
+    background-image: url(fotos/image1.jpg);
+}
+
+section.module.parallax02 {
+    background-image: url(fotos/foto02.jpg);
+}
+
+section.module.parallax03 {
+    background-image: url(fotos/image3.jpg);
+}
+
+section.module.parallax04 {
+    background-image: url(fotos/image1.jpg);
+}
+
+
+
+@media screen and (max-width: 714px) {
+    .unique {
+        margin: auto;
+        background-color: #000;
+        width: 60%;
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .first {
+        font-size: 12px;
+        margin-left: 10px;
+        width: 95%;
+    }
+
+    .container02{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+}
